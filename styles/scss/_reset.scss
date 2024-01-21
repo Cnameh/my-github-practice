@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $primary--fm;
+  min-height: 100dvh;
+  font-size: 1.6rem;
+}
+
+ul, ol, dl {
+  list-style: none;
+}
+
+img, picture, video, canvas {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  line-height: calc($sp--md--plus + .4rem);
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input, textarea, select {
+  border-color: transparent;
+  outline-color: transparent;
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-spacing: 0;
+}

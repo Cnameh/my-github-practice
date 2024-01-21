@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa&family=Concert+One&family=Montserrat&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100dvh;
+  font-size: 1.6rem;
+}
+
+ul, ol, dl {
+  list-style: none;
+}
+
+img, picture, video, canvas {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  line-height: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input, textarea, select {
+  border-color: transparent;
+  outline-color: transparent;
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.navbar {
+  background-color: #2B2E4A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 5%;
+}
+.navbar--logo {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #71c9ce;
+}
+.navbar--links {
+  display: flex;
+  font-size: 1.6rem;
+  gap: 4em;
+}
+.navbar--link {
+  color: #71c9ce;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.navbar--search--icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #71c9ce;
+  margin-right: 1.6rem;
+}
+.navbar--bars {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #71c9ce;
+}
+
+@media screen and (max-width: 48rem) {
+  .navbar {
+    background-color: #2B2E4A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 5%;
+  }
+  .navbar--logo {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #71c9ce;
+  }
+  .navbar--links {
+    display: none;
+    font-size: 1.6rem;
+    gap: 4em;
+  }
+  .navbar--link {
+    color: #71c9ce;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }
+  .navbar--search--icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #71c9ce;
+    margin-right: 4.8rem;
+  }
+  .navbar--bars {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #71c9ce;
+  }
+}/*# sourceMappingURL=root.css.map */

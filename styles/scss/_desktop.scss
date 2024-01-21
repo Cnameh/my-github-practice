@@ -1,0 +1,35 @@
+.navbar {
+  background-color: $clr--secondary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 5%;
+  &--logo {
+    font-size: double($fs--md);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: $clr--primary;
+  }
+  &--links {
+    display: flex;
+    font-size: $fs--md;
+    gap: 4em;
+  }
+  &--link {
+    color: $clr--primary;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }
+  &--search--icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: $clr--primary;
+    margin-right: 1.6rem;
+  }
+  &--bars {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: $clr--primary;
+  }
+}
