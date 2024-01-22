@@ -46,8 +46,16 @@ table {
   border-spacing: 0;
 }
 
+@keyframes shine {
+  from {
+    text-shadow: 0px 0px 0px #71c9ce;
+  }
+  to {
+    text-shadow: 1px 1px 10px #71c9ce;
+  }
+}
 .navbar {
-  background-color: #2B2E4A;
+  background-color: #2b2e4a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,7 +92,7 @@ table {
 
 @media screen and (max-width: 48rem) {
   .navbar {
-    background-color: #2B2E4A;
+    background-color: #2b2e4a;
     display: flex;
     justify-content: space-between;
     align-items: center;

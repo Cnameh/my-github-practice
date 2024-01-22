@@ -5,7 +5,7 @@
   align-items: center;
   padding: 0.5em 5%;
   &--logo {
-    font-size: double($fs--md);
+    font-size: multiply($fs--xxmd);
     text-transform: uppercase;
     letter-spacing: 0.25em;
     color: $clr--primary;
